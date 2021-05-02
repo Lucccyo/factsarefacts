@@ -29,8 +29,3 @@ Ensuite vous pourrez entrer le theme de l'article recherché parmi les themes do
 Vous pourrez aussi changer le theme de couleur de votre interface.
 Vous pourrez, dans les options, ajouter
 
-COMMENT ACCEDER AU SITE
-    
-    login :coddity
-    mot de passe :VM80Yzr0NmLYahftbKUm
-    lien URL :https://factsarefacts.apaoc.fr
