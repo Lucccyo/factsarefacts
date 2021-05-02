@@ -1,0 +1,2 @@
+ERROR : PDOException: SQLSTATE[HY000] [1044] Access denied for user 'factsdbadm'@'localhost' to database '$db' 
+in /var/www/factsarefacts/conf/database.php:24 Stack trace: #0 /var/www/factsarefacts/conf/database.php(24): PDO->__construct('mysql:host=loca...', 'factsdbadm', '7kKGg3Rs0MzRg6') #1 /var/www/factsarefacts/Connection.php(7): include('/var/www/factsa...') #2 {main}

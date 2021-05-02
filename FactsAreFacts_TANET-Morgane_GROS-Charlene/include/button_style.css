@@ -1,0 +1,14 @@
+.btn {
+    padding: 15px;
+    border-radius: 50px;
+    border-color: var(--txt-foncé);
+    font-size: 20px;
+    color: var(--txt-foncé);
+    cursor: pointer;
+    background-color: var(--peach-light);
+    transition: background-color 0.4s;
+}
+
+.btn:hover {
+    background-color: var(--peach-semiLight);
+}

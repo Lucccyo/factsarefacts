@@ -1,0 +1,99 @@
+:root {
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: txt;
+    src: url(typo/Espera-Regular.ttf);
+}
+
+@font-face {
+    font-family: titre;
+    src: url(typo/LinLibertine_aBS.ttf);
+}
+
+.searchBar {
+    display: flex;
+    background-color: var(--peach-semiLight);
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 17rem;
+    z-index: 1;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 15vh;
+    width: 83,9%;
+    border-bottom-color: var(--peach-color);
+    border-bottom-style: solid;
+}
+
+.searchBox {
+    background: var(--peach-light);
+    height: 40px;
+    width: 15rem;
+    border-radius: 25px;
+    padding: 10px;
+    border-color: var(--txt-peach);
+    border-style: solid;
+}
+
+.search-btn {
+    color: var(--txt-peach);
+    background-color: var(--peach-light);
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: var(--txt-foncé);
+    font-family: txt;
+    font-size:16px ;
+    transition: 0.4s;
+    line-height: 40px;
+}
+
+.afficher {
+    margin-left: 17rem;
+    margin-right: 17rem;
+    background-color: var(--back);
+    padding: 20px;
+}
+
+.user-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--peach-light);
+    border-radius: 25px;
+    padding: 12px;
+}
+
+.imgUser img {
+    width: 50px;
+    height: auto;
+    border-radius: 25px;
+    border: solid var(--peach-color);
+}
+
+.pseudoUser {
+    margin-left: 20px;
+}

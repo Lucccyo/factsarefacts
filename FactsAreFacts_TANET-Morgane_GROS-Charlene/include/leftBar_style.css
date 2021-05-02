@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: txt;
+    src: url(typo/Espera-Regular.ttf);
+}
+
+@font-face {
+    font-family: titre;
+    src: url(typo/LinLibertine_aBS.ttf);
+}
+
+.myBar, .settingBar{
+    width: 17rem;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: aqua;
+    border-right-color: var(--txt-peach);
+    border-right-style: solid;
+    z-index: 2;
+}
+
+.myBar .logo-item img, .settingBar .logo-item img {
+    width: 11vh;
+    height: auto;
+    border-radius: 20%;
+}
+.myBar .logo-item, .settingBar .logo-item {
+    margin: 7%;
+}
+
+.myBar .nav-item img, .settingBar .nav-item img{
+    width: 15vh;
+    height: auto;
+    border-radius: 100%;
+}
+
+.myBar-nav, .settingBar-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.myBar .nav-link, .settingBar .nav-link {
+    text-decoration: none;
+    font-family: txt;
+    color: var(--txt-foncé);
+    font-size: 24px;
+}
+
+#user-nav .nav-item {
+    margin-top: 20px;
+}
+
+#user-nav {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-item:last-child {
+    margin-top: auto;
+    margin-bottom: 12%;
+}
+
+.settingsBtn {
+    padding: 15px;
+    border-radius: 50px;
+    border-color: var(--txt-foncé);
+    font-size: 20px;
+    background-color: white;
+    color: var(--txt-foncé);
+}
+
+.list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

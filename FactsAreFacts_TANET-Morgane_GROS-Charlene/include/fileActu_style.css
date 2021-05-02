@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--txt-foncé);
+    font-family: txt;
+}
+
+@font-face {
+    font-family: txt;
+    src: url(typo/Espera-Regular.ttf);
+    src: url(../typo/Espera-Regular.ttf);
+}
+
+@font-face {
+    font-family: titre;
+    src: url(typo/LinLibertine_aBS.ttf);
+}
+
+.main-items {
+    margin-left: 17rem;
+    margin-right: 17rem;
+    background-color:  var(--back);
+    padding: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.post-item {
+    display: flex;
+    flex-direction: column; 
+    margin-top: 30px;
+    padding: 10px;
+    background-color: var(--peach-backPost);
+    border-radius: 25px;
+}
+
+.userEditeur {
+    display: flex;
+}
+
+.userEditeur img {
+    width: 50px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.headerPost {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.headerPost .nomEditeur {
+    margin-left: 7px;
+}
+
+.expertJuge:last-child {
+    margin-left: 75%;
+}
+
+.footerPost .head .btnInterract ul {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.footerPost .head .btnInterract li {
+    list-style: none;
+}
+
+.imagePost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid var(--peach-semiLight);
+    border-top: solid var(--peach-semiLight);
+}
+
+.imagePost img {
+    width: 400px;
+    height: auto;
+    margin: 10px;
+}
+
+.footerPost .head .btnInterract {
+    float: right;
+}
+
+.footerPost {
+    margin-left: 25px;
+}
+
+.footerPost .head .btnInterract .btn {
+    width: 50px;
+    height: 50px;
+    background-color: var(--peach-backPost);
+}
+
+.footerPost .corpsLibPost {
+    margin-left: 15px;
+}
+
+h1 {
+    font-family: titre;
+    color: var(--txt-foncé);
+}
+
+p {
+    font-family: txt;
+    color: var(--txt-foncé);
+    text-decoration: none;
+}
+
+.userEditeur p {
+    color: var(--txt-foncé);
+}
+
+.lienUrl {
+    color: var(--txt-peach);
+}
+
+.remplissage {
+    height: 43vh;
+}
+
+.user_item a {
+    text-decoration: none;
+}

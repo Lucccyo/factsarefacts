@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: txt;
+    src: url(typo/Espera-Regular.ttf);
+    src: url(../typo/Espera-Regular.ttf);
+}
+
+@font-face {
+    font-family: titre;
+    src: url(typo/LinLibertine_aBS.ttf);
+}
+
+.footer {
+    background-color: var(--peach-semiLight);
+    margin-left: 17rem;
+    margin-right: 17rem;
+    margin-bottom: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer .list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer h1 {
+    font-family: txt;
+}
+
+.footer a {
+    color: var(--txt-foncé);
+    font-family: txt;
+    text-decoration: none;
+}

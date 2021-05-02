@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: txt;
+    src: url(typo/Espera-Regular.ttf);
+}
+
+@font-face {
+    font-family: titre;
+    src: url(typo/LinLibertine_aBS.ttf);
+}
+
+.listBar {
+    width: 17rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-left-color: var(--peach-semiLight);
+    border-left-style: solid;
+    background-color: var(--peach-light);
+}
+
+.listBar-nav {
+    padding: 0;
+    margin: 0;
+}
+
+#themeList , #postButton{
+    list-style: none;
+    font-size: 24px;
+    border-color: var(--txt-peach);
+    border-style: solid;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: var(--peach-color);
+}
+
+.placePost {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: end;
+    margin-bottom: 23vh;
+}
+
+#themeList .nav-link {
+    text-decoration: none;
+    color: var(--txt-foncé);
+    font-family: txt;
+}
+
+#themeList .nav-link:hover {
+    color: #555555;
+}
+
+#listBar-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18vh;
+    height: 100%;
+}
+
+#themeList .genre-item {
+    margin-top: 15px;
+}
+
+#themeList .genre-item:first-child {
+    margin-top: 0;
+}
+
+#postButton a {
+    text-decoration: none;
+    color: var(--txt-foncé);
+    font-family: txt;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    border: solid;
+    border-radius: 25px;
+    z-index: 10;
+    background-color: var(--peach-light);
+    width: 500px;
+    max-width: 80%;
+    padding: 20px;
+    font-family: txt;
+    transition: 200ms ease-in-out;
+}
+
+.modal.active{
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid;
+}
+
+.modal-header title {
+    font-family: titre;
+}
+
+.modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 2rem;
+    color: var(--txt-foncé);
+}
+
+#overlay {
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.5);
+    pointer-events: none;
+    transition: 200ms ease-in-out;
+}
+
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
+
+}
+
+.modal-body {
+    color: var(--txt-peach);
+}
