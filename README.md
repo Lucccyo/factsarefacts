@@ -26,7 +26,8 @@ Une fois connecté vous pourrez consulter votre compte, certains liens ne sont p
 Vous pouvez poster un article via une image, une capture d'écran, en ajoutant un titre une légende et un lien url facultatif.
 Ensuite vous pourrez entrer le theme de l'article recherché parmi les themes donnés dans le menu déroulant. puis enfin poster votre article, qui sera visible par tous.
 
-Vous pourrez aussi changer le theme de couleur de votre interface. 
+Vous pourrez aussi changer le theme de couleur de votre interface.
+Vous pourrez, dans les options, ajouter
 
 COMMENT ACCEDER AU SITE
     
