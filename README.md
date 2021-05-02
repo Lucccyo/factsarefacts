@@ -19,11 +19,14 @@ SOURCES
 
 MODE D'EMPLOI
 
-Arrivée sur le site https://factsarefacts.apaoc.fr , on peut rechercher un utilisateur, consulter les posts en ligne, dans le footer acceder aux mentions légales, creer un nouveau compte et s'inscrire.
+Arrivé sur le site https://factsarefacts.apaoc.fr , on peut rechercher un utilisateur, consulter les posts en ligne, acceder aux mentions légales dans le footer, creer un nouveau compte et s'inscrire.
 
-Une fois connecté vous pourrez consulter votre compte, certains liens ne sont pas encore accessibles, car  nous n'avons pas encore eu le temps de les remplir mais ca ne saurai tarder.
-Vous pouvez poster un articles via une image, une capture d'écran, en ajoutant un titre une légende et un lien url facultatif.
+Une fois connecté vous pourrez consulter votre compte, certains liens ne sont pas encore accessibles, car  nous n'avons pas encore eu le temps de les remplir mais ca ne saurait tarder.
+
+Vous pouvez poster un article via une image, une capture d'écran, en ajoutant un titre une légende et un lien url facultatif.
 Ensuite vous pourrez entrer le theme de l'article recherché parmi les themes donnés dans le menu déroulant. puis enfin poster votre article, qui sera visible par tous.
+
+Vous pourrez aussi changer le theme de couleur de votre interface. 
 
 COMMENT ACCEDER AU SITE
     
