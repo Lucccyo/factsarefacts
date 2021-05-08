@@ -16,6 +16,9 @@ SOURCES
 
     How to Insert Images to MySQL and Display Them Using PHP
     https://www.youtube.com/watch?v=1NiJcZrPHvA&list=LL&index=13
+    
+    Documentation sur les couleurs et leur utilisation
+    https://material.io/design/color/dark-theme.html
 
 MODE D'EMPLOI
 
